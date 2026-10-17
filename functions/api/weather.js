@@ -21,7 +21,7 @@ export default {
       return new Response(JSON.stringify(data), {
         headers: {
           'Content-Type': 'application/json',
-          'Access-Control-Allow-Origin': '*', // Na produção, troque '*' pelo seu domínio (ex: 'https://borim.online')
+          'Access-Control-Allow-Origin': 'https://weather-5gk.pages.dev',
           'Access-Control-Allow-Methods': 'GET',
         },
       });
